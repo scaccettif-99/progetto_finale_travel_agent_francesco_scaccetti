@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "travel_agent_api", from = "src"}]
+packages = [{include = "travel_agent_api"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

@@ -3,4 +3,8 @@ TRAVEL AGENT
 
 - Progetto inizializzato con e dipendenze scaricate correttamente
 
+- Creato main e chat_router
 
+- Sistemata struttura del progetto
+
+- Completato chat_router.py
