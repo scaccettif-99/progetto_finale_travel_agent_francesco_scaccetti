@@ -8,3 +8,12 @@ TRAVEL AGENT
 - Sistemata struttura del progetto
 
 - Completato chat_router.py
+
+- creato il file flights_finder
+
+- creato il file hotels_finder
+
+- creato il file chain_travel_plan
+
+- creato il file chain_historical_expert
+
