@@ -17,3 +17,11 @@ TRAVEL AGENT
 
 - creato il file chain_historical_expert
 
+- creata cartella services con agent_service.py
+
+- modificato il system_prompt con un messaggio di benvenuto personalizzato
+
+- dato il comando poetry run uvicorn travel_agent_api.main:app --reload --port8080 per verificare il corretto funzionamento
+
+- progetto completato
+
