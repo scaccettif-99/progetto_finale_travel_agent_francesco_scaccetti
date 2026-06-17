@@ -33,5 +33,7 @@ TRAVEL AGENT
 
 - agent personalizzato come Luke Skywalker
 
+- personalizzato css di chainlit con colori e icone
+
 - progetto completato
 
