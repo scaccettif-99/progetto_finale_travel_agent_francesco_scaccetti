@@ -4,7 +4,6 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from typing import Optional
-from langchain_core.output_parsers import PydanticOutputParser
 
 
 class TravelPlanInput(BaseModel):
@@ -70,8 +69,7 @@ def chain_travel_plan(params: TravelPlanInput) -> TravelPlanOutput:
     """
 
     prompt = ChatPromptTemplate([("human", "{input}")])
-    output_parser = PydanticOutputParser(pydantic_object=TravelPlanOutput)
-    chain = prompt | model | output_parser
+    chain = prompt | model.with_structured_output(TravelPlanOutput)
     result = chain.invoke({"input": system_prompt})
 
     # Tracing

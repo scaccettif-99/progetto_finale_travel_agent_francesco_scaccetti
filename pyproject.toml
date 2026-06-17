@@ -6,7 +6,7 @@ authors = [
     {name = "Francesco Scaccetti",email = "scaccettif@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10,<4.0"
+requires-python = ">=3.10,<3.14"
 dependencies = [
     "fastapi (>=0.137.1,<0.138.0)",
     "uvicorn (>=0.49.0,<0.50.0)",
@@ -16,7 +16,8 @@ dependencies = [
     "langgraph (>=1.2.5,<2.0.0)",
     "pydantic (>=2.13.4,<3.0.0)",
     "python-dotenv (>=1.2.2,<2.0.0)",
-    "google-search-results (>=2.4.2,<3.0.0)"
+    "google-search-results (>=2.4.2,<3.0.0)",
+    "chainlit (>=2.11.1,<3.0.0)"
 ]
 
 [tool.poetry]

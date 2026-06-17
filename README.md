@@ -23,5 +23,15 @@ TRAVEL AGENT
 
 - dato il comando poetry run uvicorn travel_agent_api.main:app --reload --port8080 per verificare il corretto funzionamento
 
+- progetto corretto con le indicazioni date in revisione, quindi system prompt semplificato evitando anche tool-call inutili che provocavano latenza
+
+-PydanticOutputParser richiedeva che nel prompt ci fosse {format_instructions}, affinchè il modello risponda in JSON. Quindi sostituito con model.with_structured_output(TravelPlanOutput).
+
+- implementato nuovo tool meteo
+
+- Installato chainlit per portare l'agent su una chat
+
+- agent personalizzato come Luke Skywalker
+
 - progetto completato
 

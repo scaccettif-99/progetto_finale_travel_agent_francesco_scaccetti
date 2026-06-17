@@ -1,0 +1,30 @@
+html, html.dark, :root {
+  --background: 225 51% 10% !important;
+  --foreground: 0 0% 95% !important;
+  --card: 226 47% 14% !important;
+  --card-foreground: 0 0% 95% !important;
+  --popover: 226 47% 14% !important;
+  --popover-foreground: 0 0% 95% !important;
+  --primary: 38 91% 55% !important;
+  --primary-foreground: 225 51% 8% !important;
+  --secondary: 226 47% 17% !important;
+  --secondary-foreground: 0 0% 95% !important;
+  --muted: 226 40% 18% !important;
+  --muted-foreground: 0 0% 65% !important;
+  --accent: 226 40% 18% !important;
+  --accent-foreground: 0 0% 95% !important;
+  --border: 226 47% 20% !important;
+  --input: 226 47% 16% !important;
+  --ring: 38 91% 55% !important;
+  --sidebar-background: 225 51% 7% !important;
+  --sidebar-foreground: 0 0% 90% !important;
+  --sidebar-primary: 38 91% 55% !important;
+  --sidebar-primary-foreground: 225 51% 8% !important;
+  --sidebar-accent: 225 51% 10% !important;
+  --sidebar-accent-foreground: 0 0% 90% !important;
+  --sidebar-border: 226 47% 18% !important;
+}
+
+body {
+  background-color: hsl(225, 51%, 10%) !important;
+}
